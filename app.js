@@ -15,7 +15,15 @@ $(function(){
    	console.log("got the data ," , wd);
    	var currentLocation = wd.name;
    	var currentWeather = wd.weather[0].description;
-   	var temperature = wd.main
+   	var currentTemp = wd.main.temp;
+   	var high = wd.main.temp_max;
+   	var low = wd.main.temp_min;
+
+   	$('#currentLocation').html(currentLocation);
+   	$('#currentWeather').html(currentWeather);
+   	$('#currentTemp').html(currentTemp);
+   	$('#high').html(high);
+   	$('#low').html(low);
    })
   
 
