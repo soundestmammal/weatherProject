@@ -3,22 +3,24 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Weather API Project</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
 </head>
 <body>
-  <div id="header">
-    <div class="left"><h1 id="currentLocation">Getting location</h1></div><!--
-  --><div class="navbar"></div><!--
-  --><div class="right">Weather API Project<i class="fa fa-heart"></i></div>
-  </div>
+
   <div id="container">
-  <h2 class="center-text content-title" id="currentTemp">Temperature</h2>
-  <h6 class="center-text"><a href="#" id="toggle">Toggle C/F</a></h6>
+    <h1 id="currentLocation"></h1>
+  <h2 class="center-text content-title" id="currentTemp"></h2>
+  <h2 id="currentWeather"></h2>
+   <p id="high-low"></p>
+  <button type="button" class="btn btn-info"> <h6 class="center-text"><a href="#" id="toggle" class="b">Convert to C/F</a></h6></button>
     <div class="content-body">
-    <p id="high-low"></p>
-      <p id="currentWeather"></p>
+   
+      
     
 
 

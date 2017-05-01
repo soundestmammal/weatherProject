@@ -3,7 +3,10 @@
 
 
 body{
-  background: url(http://bit.ly/1V2DIum);
+  background-color: #072d4c;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: white;
 }
 
 #header {
@@ -35,7 +38,7 @@ body{
   }
 }
 #container {
-  background: rgba(66,66,66,0.4);
+  background-color: rgb(128, 128, 128);
   display: block;
   width: 40%;
   margin: 48px auto;

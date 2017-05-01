@@ -49,25 +49,6 @@ $(function(){
    		render(wd , cel);
    	});
 
-
-   	// var currentLocation = wd.name;
-   	// var currentWeather = wd.weather[0].description;
-   	// var currentTemp = displayTemp(wd.main.temp , cel);
-   	// var high = displayTemp(wd.main.temp_max , cel);
-   	// var low = displayTemp(wd.main.temp_min , cel);
-   	// var icon = wd.weather[0].icon;
-
-
-
-   	// $('#currentLocation').html(currentLocation);
-   	// $('#currentWeather').html(currentWeather);
-   	// $('#currentTemp').html(currentTemp);
-   	// $('#high-low').html(high + " / " + low);
-
-
-   	// var iconSrc = 'http://openweathermap.org/img/w/' + icon + ".png";
-   	// // console.log(iconSrc);
-   	// $("#currentTemp").prepend("<img src='" + iconSrc + "'>");
    })
   
 
